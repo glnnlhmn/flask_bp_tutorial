@@ -1,5 +1,5 @@
 from flask import Flask
-from example_blueprint import example_blueprint
+from app.main.routes import main
 
 __author__ = 'Glenn Lehman'
 __credits__ = ['Glenn Lehman']
@@ -12,6 +12,6 @@ __status__ = 'prerelease'
 
 def create_app():
     app = Flask(__name__)
-    app.register_blueprint(example_blueprint)
+    app.register_blueprint(main)
 
     return app
