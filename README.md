@@ -14,5 +14,5 @@ Simple flask app that uses blueprints
 | -------- | --------- |
 | ```venv/source/activate``` | ```source venv/bin/activate```  |
 
-```pip install -r requirement.txt```
+```pip install -r requirements.txt```
 
